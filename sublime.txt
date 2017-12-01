@@ -1,0 +1,26 @@
+url:
+https://www.sublimetext.com/
+
+typing customization:
+open sublime text preference file,
+place this in the right side column
+
+{
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "rulers": [80],
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true
+}
+
+package control:
+
+preferences -> package control
+-- or --
+ctrl+`
+import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+
+packages:
+ctrl+shift+p -> install
+GitGutter
+SidebarTools
