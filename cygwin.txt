@@ -9,7 +9,7 @@ cmd prompt -> C:\cygwin64 then run
 setup-x86_64.exe -q -P wget -P gcc-g++ -P make -P diffutils -P libmpfr-devel -P libgmp-devel -P libmpc-devel
 
 cygwin prompt -> home directory
-wget http://ftpmirror.gnu.org/gcc/gcc-4.9.2/gcc-4.9.2.tar.gz
+wget http://ftpmirror.gnu.org/gcc/gcc-7.2.0/gcc-7.2.0.tar.gz
 tar xf gcc-7.2.0.tar.gz
 mkdir build-gcc
 cd build-gcc
@@ -17,7 +17,7 @@ cd build-gcc
 make -j4
 make install
 cd ..
-remove gcc files from current directory
+remove gcc files from directory
 
 apt-cyg:
 setup-x86_64 -q -P wget,tar,qawk,bzip2,subversion,vim
