@@ -1,0 +1,21 @@
+url:
+https://cran.r-project.org
+https://www.rstudio.com
+https://miktex.org
+
+install latest MiKTex (full download) for .Rmd functionality
+
+run in R prompt:
+install.packages(dplyr)
+install.packages(fGarch)
+install.packages(plotly)
+install.packages(readxl)
+install.packages(readr)
+install.packages(jsonlite)
+install.packages(httr)
+install.packages(quantmod)
+install.packages(tidyquant)
+install.packages(tidyr)
+install.packages(lubridate)
+install.packages(ggplot2)
+install.packages(gmodels)
