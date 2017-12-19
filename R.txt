@@ -19,3 +19,10 @@ install.packages(tidyr)
 install.packages(lubridate)
 install.packages(ggplot2)
 install.packages(gmodels)
+install.packages(knitr)
+install.packages(rmarkdown)
+
+or 
+
+execute file:
+package_script.R
