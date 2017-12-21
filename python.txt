@@ -11,3 +11,9 @@ pip install pandas-datareader
 pip install fix-yahoo-finance
 
 conda clean -t
+
+set path:
+in path variable ->
+\Miniconda3
+\Miniconda3\Scripts
+\Miniconda3\Lib\site-packages

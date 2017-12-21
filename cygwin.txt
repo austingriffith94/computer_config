@@ -41,3 +41,8 @@ tar jxf boost_1_65_1.tar.bz2
 cd boost_1_65_1
 ./bootstrap.sh
 ./b2 --without-mpi install
+
+set path:
+in path variable ->
+\cygwin64\bin
+\cygwin64\home
