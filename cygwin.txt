@@ -2,6 +2,7 @@ url:
 https://cygwin.com/install.html
 
 initial setup:
+(check for newer gcc version before download)
 download and run .exe
 move .exe to C:\cygwin64
 
@@ -30,14 +31,13 @@ apt-cyg install ca-certificates
 apt-cyg install curl
 apt-cyg install git
 apt-cyg install git-svn
-apt-cyg install python
-apt-cyg install python-setuptools
 apt-cyg install rsync
 
 boost:
+(check for newer boost version before download)
 cd /usr/src
 wget http://downloads.sourceforge.net/project/boost/boost/1.65.1/boost_1_65_1.tar.bz2
 tar jxf boost_1_65_1.tar.bz2
 cd boost_1_65_1
-./booststrap.sh
+./bootstrap.sh
 ./b2 --without-mpi install
