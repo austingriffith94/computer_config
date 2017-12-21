@@ -1,2 +1,5 @@
-git config --global credential.helper cache
+after installing and properly pathing git for command line:
+
+git config --global user.email "austgriffia@gmail.com"
 git config --global user.name "austingriffith94"
+git config --global credential.helper cache
