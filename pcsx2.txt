@@ -1,0 +1,23 @@
+url:
+https://pcsx2.net/
+https://www.cpuid.com/
+http://appnee.com/ps2-bios-files-all-in-one-package-for-pcsx2-emulator/
+
+download direct x package to run D11, otherwise the emulator will crash on boot
+use cpuid -> instructions section to determine GS configuration
+configure lilypad using controller
+use appnee link to download desired bios package
+set emulation settings to 3 (balanced) for default
+
+game configs:
+- splashdown
+	use software D11 for video setting (prevents polygon crash)
+- Battlefront
+	use hardware D11 for best performance, can up internal resolution for better look
+	use software D11 to fix sky bug
+- Burnout 3
+	use hardware D11 for best performance
+	use software D11 to fix fog and flickering flags bugs
+- SSX3
+- Metal Gear Solid 3: Snake Eater
+- Shadow of the Colussus
