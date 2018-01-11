@@ -6,9 +6,11 @@ conda update conda
 conda install requests beautifulsoup4 sqlite pyqt ipython numpy pandas matplotlib jupyter
 conda install statsmodels scipy scikit-learn nltk
 conda install spyder
+conda install -c cvxgrp cvxpy
 pip install lxml
 pip install pandas-datareader
 pip install fix-yahoo-finance
+pip install pulp
 
 conda clean -t
 

@@ -1,5 +1,5 @@
 # List of useful packages
-pkg <- c("tidyr", "dplyr", "ggplot2", "knitr", "rmarkdown", "plotly", "fGarch")
+pkg <- c("tidyr", "devtools", "rvest", "dplyr", "ggplot2", "knitr", "rmarkdown", "plotly", "fGarch")
 
 # Check if packages are not installed and assign the
 # names of the uninstalled packages to the variable new.pkg

@@ -6,23 +6,31 @@ https://miktex.org
 install latest MiKTex (full download) for .Rmd functionality
 
 run in R prompt:
-install.packages(dplyr)
-install.packages(fGarch)
-install.packages(plotly)
-install.packages(readxl)
-install.packages(readr)
-install.packages(jsonlite)
-install.packages(httr)
-install.packages(quantmod)
-install.packages(tidyquant)
-install.packages(tidyr)
-install.packages(lubridate)
-install.packages(ggplot2)
-install.packages(gmodels)
-install.packages(knitr)
-install.packages(rmarkdown)
+install.packages('dplyr')
+install.packages('fGarch')
+install.packages('plotly')
+install.packages('readxl')
+install.packages('readr')
+install.packages('jsonlite')
+install.packages('httr')
+install.packages('quantmod')
+install.packages('tidyquant')
+install.packages('tidyr')
+install.packages('lubridate')
+install.packages('ggplot2')
+install.packages('gmodels')
+install.packages('knitr')
+install.packages('rmarkdown')
+install.packages('devtools')
+install.packages('pipeR')
 
-or 
+or
 
 execute file:
 package_script.R
+
+install github libraries:
+devtools::install_github("repositoryName/packageName")
+
+API list link:
+https://www.computerworld.com/article/3109890/data-analytics/these-r-packages-import-sports-weather-stock-data-and-more.html
