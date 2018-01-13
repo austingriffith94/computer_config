@@ -24,11 +24,6 @@ install.packages('rmarkdown')
 install.packages('devtools')
 install.packages('pipeR')
 
-or
-
-execute file:
-package_script.R
-
 install github libraries:
 devtools::install_github("repositoryName/packageName")
 

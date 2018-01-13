@@ -19,3 +19,7 @@ in path variable ->
 \Miniconda3
 \Miniconda3\Scripts
 \Miniconda3\Lib\site-packages
+
+install gurobi (optimization package):
+https://www.gurobi.com/downloads/gurobi-optimizer
+grbgetkey 79bce118-f6d1-11e7-9a56-0a4522cc772c
