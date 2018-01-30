@@ -1,10 +1,9 @@
 url:
 https://pcsx2.net/
-https://www.cpuid.com/
 http://appnee.com/ps2-bios-files-all-in-one-package-for-pcsx2-emulator/
 
 download direct x package to run D11, otherwise the emulator will crash on boot
-use cpuid -> instructions section to determine GS configuration
+use speccy -> cpu -> instructions section to determine GS configuration availability
 configure lilypad using controller
 use appnee link to download desired bios package
 set emulation settings to 3 (balanced) for default
@@ -19,5 +18,11 @@ game configs:
 	use hardware D11 for best performance
 	use software D11 to fix fog and flickering flags bugs
 - SSX3
+	turn off texture filtering for less framerate hitches during cutscenes
 - Metal Gear Solid 3: Snake Eater
+	to get post processing effects -> Go to Config > Video (GS) > Plugin Settings, set Renderer to "OpenGL (Hardware)"
+		also, set CRC Hack Level to "Partial"
+		make sure "Blending Unit Accuracy" is set to at least "Basic"
 - Shadow of the Colussus
+	if too much bloom -> use either software rendering or "Aggressive CRC" hack in GSdx plugin settings
+	
