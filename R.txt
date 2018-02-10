@@ -27,5 +27,7 @@ install.packages('pipeR')
 install github libraries:
 devtools::install_github("repositoryName/packageName")
 
+update.packages()
+
 API list link:
 https://www.computerworld.com/article/3109890/data-analytics/these-r-packages-import-sports-weather-stock-data-and-more.html

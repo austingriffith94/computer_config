@@ -19,6 +19,10 @@ pip install pyflux
 conda clean -t
 conda clean -p
 
+update packages:
+pip install package_name --upgrade
+conda update package_name
+
 set path:
 in path variable ->
 \Miniconda3
