@@ -21,7 +21,7 @@ conda clean -p
 
 update packages:
 pip install package_name --upgrade
-conda update package_name
+conda update --all
 
 set path:
 in path variable ->
