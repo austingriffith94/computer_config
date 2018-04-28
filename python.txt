@@ -5,8 +5,8 @@ run in anaconda prompt:
 conda update conda
 conda update python
 conda install requests beautifulsoup4 sqlite pyqt ipython numpy pandas matplotlib jupyter
-conda install statsmodels scipy scikit-learn nltk scrapy seaborn
-conda install spyder
+conda install statsmodels scipy scikit-learn nltk scrapy seaborn networkx plotly cython
+conda install spyder tensorflow
 conda install -c cvxgrp cvxpy
 conda install pip
 pip install -U pip
@@ -15,11 +15,14 @@ pip install pandas-datareader
 pip install fix-yahoo-finance
 pip install pulp
 pip install pyflux
+pip install igraph
+pip install jgraph
 
 conda clean -t
 conda clean -p
 
 update packages:
+python -m pip install --upgrade pip
 pip install package_name --upgrade
 conda update --all
 
