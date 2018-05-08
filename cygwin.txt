@@ -1,6 +1,10 @@
 url:
 https://cygwin.com/install.html
 
+run executable:
+g++ "list of file names"
+./a.exe
+
 initial setup:
 (check for newer gcc version before download)
 download and run .exe

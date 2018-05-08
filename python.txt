@@ -8,6 +8,7 @@ conda install requests beautifulsoup4 sqlite pyqt ipython numpy pandas matplotli
 conda install statsmodels scipy scikit-learn nltk scrapy seaborn networkx plotly cython
 conda install spyder tensorflow
 conda install -c cvxgrp cvxpy
+conda install -c mosek mosek
 conda install pip
 pip install -U pip
 pip install lxml
