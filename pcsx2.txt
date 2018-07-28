@@ -12,17 +12,24 @@ game configs:
 - splashdown
 	use software D11 for video setting (prevents polygon crash)
 - Battlefront
-	use hardware D11 for best performance, can up internal resolution for better look
-	use software D11 to fix sky bug
+	use OpenGL hardware in PCSX2 v1.5 or later to fix the blank sky texture bug
 - Burnout 3
 	use hardware D11 for best performance
 	use software D11 to fix fog and flickering flags bugs
-- SSX3
-	turn off texture filtering for less framerate hitches during cutscenes
-- Metal Gear Solid 3: Snake Eater
-	to get post processing effects -> Go to Config > Video (GS) > Plugin Settings, set Renderer to "OpenGL (Hardware)"
-		also, set CRC Hack Level to "Partial"
-		make sure "Blending Unit Accuracy" is set to at least "Basic"
 - Shadow of the Colussus
 	if too much bloom -> use either software rendering or "Aggressive CRC" hack in GSdx plugin settings
-	
+	if too slow -> use vu cycle stealing to fix, though may mess with draw distance
+- Jak 2
+	use VU +2 and EE -1 to work with the speed ups and slowdowns (play with these settings to see what works best)
+	add the following line to the GSdx.ini file in the PCSX2 ini folder
+	UserHacks_TextureInsideRt=1
+- Jak 3
+	use OpenGL Hardware, set CRC to Partial or Automatic
+	set Blending Unit Accuracy to at least Basic
+	set Mipmapping to Basic
+- God of War
+	"Enable HW Hacks" -> set to "Round Sprite" or "TC Offset" to allow for Kratos shadow
+			  -> set "Align Sprite" to fix underwater bugs
+- God of War 2
+	"Enable HW Hacks" -> set "Align Sprite" to fix shadow bugs
+	Set CRC hack level to "Aggressive" to fix vertical lines in underwater sections
