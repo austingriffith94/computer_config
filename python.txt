@@ -20,6 +20,7 @@ pip install igraph
 pip install jgraph
 pip install twine
 pip install fredapi
+pip install pyinstaller
 
 conda clean -t
 conda clean -p
