@@ -4,24 +4,14 @@ https://conda.io/miniconda.html
 run in anaconda prompt:
 conda update conda
 conda update python
-conda install requests beautifulsoup4 sqlite pyqt ipython numpy pandas matplotlib jupyter
-conda install statsmodels scipy scikit-learn nltk scrapy seaborn networkx plotly cython
-conda install spyder tensorflow quandl
-conda install -c cvxgrp cvxpy
-conda install -c mosek mosek
+conda install ipython requests lxml beautifulsoup4 sqlite pyqt numpy pandas matplotlib 
+conda install statsmodels scipy scikit-learn nltk networkx cython
+conda install spyder jupyter quandl 
 conda install pip
 pip install -U pip
-pip install lxml
-pip install pandas-datareader
-pip install fix-yahoo-finance
 pip install pulp
-pip install pyflux
-pip install igraph
-pip install jgraph
-pip install twine
 pip install fredapi
 pip install pyinstaller
-
 conda clean -t
 conda clean -p
 
@@ -40,3 +30,7 @@ in path variable ->
 install gurobi (optimization package):
 conda config --add channels http://conda.anaconda.org/gurobi
 conda install gurobi
+
+optimization:
+conda install -c cvxgrp cvxpy
+conda install -c mosek mosek 
