@@ -7,11 +7,10 @@ conda update python
 conda install ipython requests lxml beautifulsoup4 sqlite pyqt numpy pandas matplotlib 
 conda install statsmodels scipy scikit-learn nltk networkx cython
 conda install spyder jupyter quandl 
+conda install -c conda-forge pyinstaller
 conda install pip
 pip install -U pip
 pip install pulp
-pip install fredapi
-pip install pyinstaller
 conda clean -t
 conda clean -p
 
