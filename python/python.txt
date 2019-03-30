@@ -6,7 +6,7 @@ conda update conda
 conda update python
 conda install ipython requests lxml beautifulsoup4 sqlite pyqt numpy pandas matplotlib seaborn
 conda install statsmodels scipy scikit-learn nltk networkx cython
-conda install spyder jupyter quandl 
+conda install spyder jupyter quandl openpyxl
 conda install -c conda-forge pyinstaller
 conda install pip
 pip install -U pip
