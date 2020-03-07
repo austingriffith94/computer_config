@@ -1,35 +1,54 @@
 url:
 https://conda.io/miniconda.html
 
-run in anaconda prompt:
-conda update conda
-conda update python
-conda install ipython requests lxml beautifulsoup4 sqlite pyqt numpy pandas matplotlib seaborn
-conda install statsmodels scipy scikit-learn nltk networkx cython
-conda install spyder jupyter quandl openpyxl
-conda install -c conda-forge pyinstaller
-conda install pip
-pip install -U pip
-pip install pulp
-conda clean -t
-conda clean -p
-
-update packages:
-python -m pip install --upgrade pip
-pip install package_name --upgrade
-conda update --all
-pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
-
 set path:
 in path variable ->
 \Miniconda3
 \Miniconda3\Scripts
 \Miniconda3\Lib\site-packages
 
-install gurobi (optimization package):
+
+
+general usefulness:
+conda install ipython
+conda install numpy pandas openpyxl lxml
+conda install -c conda-forge pyinstaller
+conda install pip
+
+plotting:
+conda install matplotlib seaborn networkx
+
+web interface:
+conda install requests quandl beautifulsoup4
+
+math and ml:
+conda install statsmodels scipy scikit-learn nltk
+
+IDE:
+conda install spyder jupyter pyqt
+
+optimization packages:
+pip install pulp
 conda config --add channels http://conda.anaconda.org/gurobi
 conda install gurobi
-
-optimization:
 conda install -c cvxgrp cvxpy
-conda install -c mosek mosek 
+conda install -c mosek mosek
+conda install cython
+
+
+
+
+
+
+clean package installs:
+conda clean -t
+conda clean -p
+
+update packages:
+conda update conda
+conda update python
+pip install -U pip
+python -m pip install --upgrade pip
+pip install package_name --upgrade
+conda update --all
+pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U
